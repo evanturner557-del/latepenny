@@ -33,3 +33,12 @@ footer{padding:36px 0 48px;font-size:.9rem;border-top:1px solid color-mix(in srg
 .check h3{margin-top:18px}.check label{display:flex;gap:10px;align-items:flex-start;padding:6px 0}.check input{width:20px;height:20px;accent-color:var(--acc)}
 .legal{max-width:760px}.legal h2{font-size:1.3rem;margin-top:1.6em}
 .hero .wrap{display:grid;grid-template-columns:1.25fr .85fr;gap:48px;align-items:center}@media(max-width:800px){.hero .wrap{grid-template-columns:1fr}.hero .art{max-width:180px;margin-top:-8px}}
+/* polish 2026-11-08 */
+.mt{margin-top:18px}
+.tool{box-shadow:6px 6px 0 var(--ink)}
+.tool input[type=number],.tool input,.tool select{font-size:16px;min-height:44px}
+.tool input:focus-visible,.tool select:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+.result{border-left:4px solid var(--ink)}
+.result strong{display:block;font-family:var(--head);font-size:clamp(1.6rem,6vw,2.1rem);line-height:1.15;margin:2px 0 4px}
+details{border-bottom:1px solid currentColor;padding:10px 0}details summary{cursor:pointer;min-height:32px}
+@media(max-width:420px){.tool{padding:18px}.tool .row{grid-template-columns:1fr}}
